@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+header {
+    position: fixed;
+    width: 100%;
+}
+.scrollhight {
+    background-color: yellow;
+    height: 10px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 70px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+nav ul li a {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 10px;
+    text-decoration: none;
+    color:yellow;
+    text-transform:capitalize;
+}
+.main {
+
+    display: flex;
+    position:static;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main  > div {
+    height: 100vh;
+    display: flex;
+        justify-content: center;
+    align-items: center;
+  font-size: 60px;
+  color:blue;
+  text-transform: capitalize;
+
+}
+
+.scrollTop {
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+
+}
